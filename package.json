@@ -1,0 +1,30 @@
+{
+  "name": "jseguillon-pyograf",
+  "version": "1.0.0",
+  "description": "Python support for Grafana via Pyodide",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch"
+  },
+  "author": "Joël Séguillon",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "latest",
+    "@grafana/runtime": "latest",
+    "@grafana/toolkit": "latest",
+    "@grafana/ui": "latest",
+    "@types/react-helmet": "^6.1.5",
+    "@types/styled-jsx": "^3.4.4",
+    "emotion": "10.0.27",
+    "react-helmet": "^6.1.0",
+    "types": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {}
+}
